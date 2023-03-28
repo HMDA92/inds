@@ -1,0 +1,73 @@
+body 
+{
+  font-family:sans-serif; 
+  background: -webkit-linear-gradient(to right, #155799, #159957);  
+  background: linear-gradient(to right, #155799, #159957); 
+  color:whitesmoke;
+}
+
+ nav{
+       width: 100%;
+       padding: 20PX 0;
+       display: flex;
+       align-items: center;
+
+
+ }
+ .logo{
+        width: 100px;
+        cursor: pointer;
+        
+ }
+
+ h2{
+           font-size: 40px;
+           margin-bottom: 15;
+           color: rgb(246, 250, 248);
+
+
+}
+ nav ul{
+            flex: 1;
+ }
+ nav ul li {
+                 display: inline-block;
+                 margin: 10px 20px;
+ }
+
+ nav ul li a{
+               color: rgb(255, 255, 255);
+
+               text-decoration: none; 
+ }
+ nav .btn{
+            color: rgb(21, 38, 41);
+            text-decoration: none;
+            border: 1px solid  rgb(19, 38, 41); 
+            padding: 10px 30px;
+            border-radius: 20px;
+            background: rgb(14, 186, 212);
+ }
+ 
+ 
+ 
+ .content h1 span{
+            color: rgb(25, 183, 189);
+ }
+ .content p1{
+             line-height: 5px;
+             font-size: 30px;
+             color: rgb(255, 255, 255);
+             size: 60;
+          
+ }
+ .tradingview-widget-container {
+
+    margin-right: 70%;
+    padding: 0;
+    box-sizing: boarder-box;
+
+
+ }
+ 
+ 
